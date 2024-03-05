@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    border: none;
+    box-sizing: border-box;
+}
+body{
+    width: 100vw;
+    background: #f5ebe0;
+    min-height: 100vh;
+}
+.navber{
+    width: 100%;
+    margin: 0;
+    background: #081621;
+    position: fixed;
+    z-index: 666;
+    margin-bottom: 500px;
+}
+.navber .logo{
+    margin: 300px;
+}
+.navber .btn{
+    margin-left: 400px;
+}
+.img_section{
+    width: 40%;
+    height: 80vh;
+    background: #f5ebe0;
+    position: relative;
+    /* margin-top: 500px; */
+    margin-left: 50px;
+
+}
+.img_section img{
+    width: 100%;
+    margin-top:100px ;
+    border-radius: 10px;
+    border: 3px solid #000;
+}
+.img_section button{
+    padding: 10px 15px;
+    background: #588157;
+    position: absolute;
+    top: 50%;
+    left: calc(50% - 39px);
+    border-radius: 5px;
+    font-size: 20px;
+    color: #fff;
+    cursor: pointer;
+    transition: 0.5s;
+
+}
+.img_section button:hover{
+    background: #2f3830;
+}
+
+
+.chat button{
+    /* padding: 10px 20px; */
+    font-size: 20px;
+    width: 60px;
+    border-radius: 50%;
+    height: 60px;
+    color: #fff;
+    background: red;
+    position: fixed;
+    right: 80px;
+    bottom: 100px;
+
+}
+.sticy{
+    position: sticky;
+    top: 200px;
+}
+.sticy button{
+    padding: 20px 30px ;
+    font-size: 20px;
+    background: #001219;
+    color: #fff;
+    border-radius: 10px;
+}
